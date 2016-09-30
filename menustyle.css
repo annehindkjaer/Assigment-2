@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family:font-family:"Fira Sans Book";
+	}
+nav{ 
+    margin-top: 2%;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 22px;}
+	
+a {
+	color:grey;
+	}
+	
+a:hover{
+	color: white;}
+
+.menulinje {
+    display: block; /*fjerner bullets ved menupunkterne*/
+    color: #000;
+    padding: 10px 16px; /*har lavet padding for at få det sorte til at passe omrking*/
+	border-radius: 25px; /*dette gør at der er runde kanter*/
+    background: black;
+    text-decoration: none;
+	display: inline; /*dette gør menulinjen står horisontalt*/
+}	
+
+.active { /*dette er sådan man redigere i den "aktive side"*/
+    background-color: black;
+    color: white;
+}
+
+
+
+#formular{
+	height: 180px;
+	width:300px; 
+	/*background-color:green;*/
+	text-align: justify;
+
+	}
+p {
+	text-align:center;
+	font-size:20px;
+	}
+	
+h1{
+	text-align:center;
+	margin-top:6%;
+	}
+	
+#tekstfelt {
+	width:300px;
+	height:25px;
+	font-size:20px;
+	}
+	
+#knap{
+	width: 70px;
+	font-size:20px;
+	
+	}
+	
+#knap1{
+	width: 140px;
+	font-size:20px;
+	
+	}
+
+
+
+
